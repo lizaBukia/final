@@ -1,0 +1,193 @@
+/* global style */
+body{
+    background-color: black;
+}
+.d-flex{
+display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-center{
+    justify-content: center;
+}
+
+
+
+
+
+/* header style */
+.logo{
+    width: 58px;
+    height: 48px;
+}
+header{
+    margin-left: 5px;
+}
+header h1{
+    display: none;
+
+}
+header ul{
+    gap:17px
+
+    
+}
+nav li a{
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+}
+header li a:hover{
+    color: gray;
+}
+header li a.active{
+    color: gray;
+}
+
+
+/* select style */
+
+section nav ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 50px;
+    gap:30px
+   
+}
+.me{
+    opacity: 0.3;
+    width: 30%;
+   
+
+}
+section nav ul li a{
+    font-size: 13px;
+   
+}
+nav ul li a span{
+    padding-left: 10px;
+}
+
+section nav ul li a:hover{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+/*  media rules */
+
+
+
+
+/*  notebook/PCs  ---  1200 - 1400   */
+@media screen and (min-width: 1200px) {
+    header{
+        margin-left: 40px;
+    }
+    .logo{
+        width: 168px;
+        height: 156px;
+    }
+    
+    header h1{
+        color: white;
+        display: block;
+        font-size: 32px;
+        padding-left: 50px;
+    }
+    header ul{
+        gap:77px;
+        
+    }
+    nav li a{
+        font-size: 25px;
+        margin-right: 40px;
+    }
+    header li a:hover{
+        color: gray;
+    }
+    section nav ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+    gap:30px
+   
+}
+.me{
+    opacity: 0.3;
+    width: 50%;
+
+}
+section nav ul li a{
+    font-size: 30px;
+   
+}
+nav ul li a span{
+    padding-left: 15px;
+}
+
+   section{
+     display: unset;
+   }
+}
+
+/*  notebook/PCs  ---  1400+   */
+@media screen and (min-width: 1400px) {
+    header{
+        margin-left: 40px;
+    }
+    .logo{
+        width: 168px;
+        height: 156px;
+    }
+    header h1{
+        color: white;
+        display: block;
+        font-size: 32px;
+    }
+    header ul{
+        gap:77px;  
+    }
+    nav li a{
+        font-size: 25px;
+        margin-right: 40px;
+
+    }
+    header li a:hover{
+        color: gray;
+    }
+    section nav ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+    gap:30px
+   
+}
+.me{
+    opacity: 0.3;
+    width: 50%;
+
+}
+section nav ul li a{
+    font-size: 30px;
+   
+}
+nav ul li a span{
+    padding-left: 15px;
+}
+
+   
+}

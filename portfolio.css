@@ -1,0 +1,273 @@
+/* global style */
+body{
+    background-color: black;
+}
+.d-flex{
+display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.space-center{
+    justify-content: center;
+}
+
+
+
+
+
+/* header style */
+.logo{
+    width: 58px;
+    height: 48px;
+}
+header{
+   
+    margin-left: 5px;
+    background-color: black;
+    position:sticky;
+    margin-top: 0;
+}
+header h1{
+    display: none;
+    font-family: 'Kiwi Maru', serif;
+
+}
+header ul{
+    gap:17px
+
+
+    
+}
+nav li a{
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Kiwi Maru', serif;
+
+}
+
+header li a:hover{
+    color: gray;
+}
+header li a.active{
+    color: gray;
+}
+
+
+
+/* section style */
+
+.georgia-box img{
+    width: 95px;
+    height: 135px;
+}
+.georgia-box{
+    box-sizing: border-box;
+    margin-top: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.portfolio-box{
+    margin-bottom: 30px;
+}
+
+/* footer style */
+footer p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    font-family: 'Kiwi Maru', serif;
+
+}
+
+footer{
+    background-color: grey;
+    height: 150px;
+
+
+}
+footer nav li a{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: 'Kiwi Maru', serif;
+
+
+}
+.footer-nav{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: px;
+    gap:15px
+   
+}
+footer a:hover{
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*  media rules */
+
+
+
+
+/*  notebook/PCs  ---  1200 - 1400   */
+@media screen and (min-width: 1200px) {
+    header{
+        margin-left: 40px;
+    }
+    .logo{
+        width: 168px;
+        height: 156px;
+    }
+    
+    header h1{
+        color: white;
+        display: block;
+        font-size: 32px;
+        padding-left: 50px;
+    }
+    header ul{
+        gap:77px;
+        
+    }
+    nav li a{
+        font-size: 25px;
+        margin-right: 40px;
+    }
+    header li a:hover{
+        color: gray;
+    }
+    .georgia-box img{
+        width: 508px;
+        height: 726px;
+
+    }
+    .georgia-box{
+        box-sizing: border-box;
+        margin-top: 135px;
+    
+    }
+    footer p{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+    
+    footer{
+        background-color: grey;
+    height: 200px;
+    
+    }
+    footer nav li a{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+    
+    }
+    .footer-nav{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        gap:15px
+       
+    }
+    
+   
+}
+
+
+/*  notebook/PCs  ---  1400+   */
+@media screen and (min-width: 1400px) {
+    header{
+        margin-left: 40px;
+        position: sticky;
+    }
+    .logo{
+        width: 168px;
+        height: 156px;
+    }
+    header h1{
+        color: white;
+        display: block;
+        font-size: 32px;
+    }
+    header ul{
+        gap:77px;  
+    }
+    nav li a{
+        font-size: 25px;
+        margin-right: 40px;
+
+        
+    }
+    header li a:hover{
+        color: gray;
+    }
+    .georgia-box img{
+        width: 408px;
+        height: 626px;
+        
+    }
+    .georgia-box{
+        box-sizing: border-box;
+        margin-top: 135px;
+    
+    }
+    footer p{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 35px;
+        padding-bottom: 15px;
+
+    }
+    
+    footer{
+        background-color: grey;
+    height: 200px;
+    
+    }
+    footer nav li a{
+        color: rgb(11, 11, 11);
+        font-size: 30px;
+    
+    }
+    .footer-nav{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        gap:15px
+       
+    }
+    .footer-nav1{
+        margin-left: 20px;
+        gap:20px
+        
+    }
+}
